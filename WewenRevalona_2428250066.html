@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventaris Barang</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="tittle">Inventaris Barang</h1>
+      <form class="Inventory-form">
+        <input
+          type="text"
+          class="input-field"
+          placeholder="Nama Barang"
+          required
+        />
+        <input
+          type="number"
+          class="input-field"
+          placeholder="Jumlah"
+          required
+        />
+        <select class="input-field" required>
+          <option value="" disabled selected>Kategori</option>
+          <option value="Elektronik">Elektronik</option>
+          <option value="Furniture">Furniture</option>
+          <option value="Alat Tulis">Alat Tulis</option>
+          <option value="Peralatan">Peralatan</option>
+        </select>
+        <button type="submit" class="submit-button">Tambah Barang</button>
+      </form>
+      <table class="Inventory-table">
+        <thead>
+          <tr>
+            <th>Nama Barang</th>
+            <th>Jumlah</th>
+            <th>Kategori</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Komputer</td>
+            <td>10</td>
+            <td>Elektronik</td>
+          </tr>
+          <tr>
+            <td>Kursi</td>
+            <td>5</td>
+            <td>Furniture</td>
+          </tr>
+          <tr>
+            <td>Kalkulator</td>
+            <td>8</td>
+            <td>Elektronik</td>
+          </tr>
+          <tr>
+            <td>Pena</td>
+            <td>12</td>
+            <td>Alat Tulis</td>
+          </tr>
+          <tr>
+            <td>Sapu</td>
+            <td>3</td>
+            <td>Peralatan</td>
+          </tr>
+          <tr>
+            <td>Monitor</td>
+            <td>15</td>
+            <td>Elektronik</td>
+          </tr>
+          <tr>
+            <td>Pensil</td>
+            <td>7</td>
+            <td>Alat Tulis</td>
+          </tr>
+          <tr>
+            <td>Pel</td>
+            <td>9</td>
+            <td>Peralatan</td>
+          </tr>
+          <tr>
+            <td>Meja</td>
+            <td>20</td>
+            <td>Furniture</td>
+          </tr>
+          <tr>
+            <td>Komputer</td>
+            <td>6</td>
+            <td>Elektronik</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="floating-buttons">
+        <button class="floating-button left-button">&larr;</button>
+        <button class="floating-button right-button">&rarr;</button>
+      </div>
+    </div>
+  </body>
+</html>
